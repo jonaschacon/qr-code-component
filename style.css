@@ -1,0 +1,60 @@
+.attribution { font-size: 16px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution p {
+    font-size: 16px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* Colors */
+
+    --white: hsl(0, 0%, 100%);
+
+    --slate300: hsl(212, 45%, 89%);
+    --slate500: hsl(216, 15%, 48%);
+    --slate900: hsl(218, 44%, 22%);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--slate300);
+    height: 100vh;
+    padding: 0px 15px;
+}
+
+main {
+    text-align: center;
+    background-color: white;
+    max-width: 300px;
+    border-radius: 25px;
+    padding: 18px;
+}
+
+main * {
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--slate900);
+}
+
+p {
+    color: var(--slate500);
+}
